@@ -1,4 +1,4 @@
-# ui-component-starter
+# package-starter
 
 A starter for creating a generic component/"package" in typescript.
 
