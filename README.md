@@ -18,12 +18,6 @@ Edit a file within `src/component` to observe hot-reloading.
 
 The typescript for the component should go into `src/component`
 
-### Uploading Demo Images
-
-It's useful to have an image of the component in the README that shows what it looks like. Place these images in the img directory. An image of the example component has been provided as an example:
-
-![sc1](img/sc1.png)
-
 ## NPM Publishing
 
 1. Ensure that `package.json` has the correct details for the npm package.
