@@ -12,17 +12,14 @@ Throughout the starter, the component is called `MyComponent` as a placeholder. 
 
 To start hot reloading: `npm start`
 
-Edit a file within `src/component` to observe hot-reloading.
-
-### TS
-
-The typescript for the component should go into `src/component`
+Edit a file within `src` to observe hot-reloading.
 
 ## NPM Publishing
 
-1. Ensure that `package.json` has the correct details for the npm package.
-2. `npm run build-component`
-3. `npm publish`
+1. Ensure that `package.json` has the correct details for the npm package (including a version bump)
+2. `npm run check`
+3. `npm run build-ts`
+4. `npm publish`
 
 ## Notable Technologies
 
