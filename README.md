@@ -1,6 +1,6 @@
 # package-starter
 
-A starter for creating a generic component/"package" in typescript.
+A starter for creating a generic component/package with Typescript, Jest, and ESLint.
 
 ## Setup
 
@@ -18,10 +18,10 @@ Edit a file within `src` to observe hot-reloading.
 
 1. Ensure that `package.json` has the correct details for the npm package (including a version bump)
 2. `npm run check`
-3. `npm run build-ts`
-4. `npm publish`
+3. `npm publish`
 
 ## Notable Technologies
 
 * typescript
 * jest
+* eslint
