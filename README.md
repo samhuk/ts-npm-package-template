@@ -1,7 +1,7 @@
 # package-starter
 
 ## Usage (package-starter)
-A starter for creating a generic component/"package" in typescript. 
+A starter for creating an NPM package in Typescript, with Jest and ESLint integration.
 
 1. Ensure that `package.json` has the correct details for the npm package, i.e. author, access, repository, version number, tags, etc.
 2. `npm run check`
