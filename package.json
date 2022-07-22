@@ -1,7 +1,7 @@
 {
-  "name": "my-component",
+  "name": "package-name",
   "version": "1.0.0",
-  "description": "my-component description",
+  "description": "package-name description",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -10,21 +10,26 @@
   ],
   "scripts": {
     "clean-unit-tests": "rimraf ./build-test",
-    "build-unit-tests": "tsc -p ./src/tsconfig.test.json",
+    "build-unit-tests": "tsc -p ./tsconfig.test.json",
     "run-unit-tests": "jest",
     "unit-tests": "npm run clean-unit-tests && npm run build-unit-tests && npm run run-unit-tests",
 
     "lint": "eslint -c .eslintrc.json ./src --ext .ts,.tsx",
     "lint-errors-only": "eslint -c .eslintrc.json ./src --ext .ts,.tsx --quiet",
-   
-    "build-ts": "tsc --project ./src/tsconfig.json",
+
+    "clean": "rimraf ./dist",
+    "build-ts": "npm run clean && tsc -p ./tsconfig.dist.json",
 
     "check": "npm rum lint-errors-only && npm run build-ts && npm run unit-tests",
 
-    "start": "tsc --project ./src/tsconfig.json --watch"
+    "start": "tsc -p ./src/tsconfig.json --watch"
   },
   "author": "",
+  "repository": "https://github.com/samhuk/package-starter",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": { },
   "devDependencies": {
     "rimraf": "^3.0.2",
@@ -34,7 +39,6 @@
     "@typescript-eslint/parser": "^5.12.1",
     "babel-jest": "^28.1.1",
     "concurrently": "^7.0.0",
-    "env-cmd": "^10.1.0",
     "eslint": "^8.9.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.4",

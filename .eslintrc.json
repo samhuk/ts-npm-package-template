@@ -12,6 +12,7 @@
     "build-test/**/*",
     "import/**/*",
     "content/**/*",
+    "dist/**/*",
     "pgdata/**/*",
     "package.lock.json",
     "nginx.conf",

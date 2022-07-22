@@ -1,27 +1,34 @@
 # package-starter
 
-A starter for creating a generic component/"package" in typescript.
+## Usage (package-starter)
+A starter for creating a generic component/"package" in typescript. 
 
-## Setup
+1. Ensure that `package.json` has the correct details for the npm package, i.e. author, access, repository, version number, tags, etc.
+2. `npm run check`
+3. `npm publish`
 
-Throughout the starter, the component is called `MyComponent` as a placeholder. Execute `setup.sh` (e.g. `sh setup.sh`) to replace all occurences of `MyComponent` (and `my-component` in some places) with your desired component name.
+One can delete this usage section for the starter. Below is a template README.
 
 ## Usage
 
+`npm i --save {package-name}`
+
+```typescript
+{usage example}
+```
+
+See the JSDocs for more information on the available operators and other options.
+
+## Development
+
 `npm i`
 
-To start hot reloading: `npm start`
+`npm start` - Start a hot reloading tsc build.
 
-Edit a file within `src` to observe hot-reloading.
-
-## NPM Publishing
-
-1. Ensure that `package.json` has the correct details for the npm package (including a version bump)
-2. `npm run check`
-3. `npm run build-ts`
-4. `npm publish`
+`npm run check` - Run linting, unit tests, and tsc build.
 
 ## Notable Technologies
 
 * typescript
 * jest
+* eslint
