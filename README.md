@@ -1,6 +1,6 @@
 # ts-npm-package-template
 
-This is a template repository for a Typescript NPM package. It contains Typescript, ESLint, Jest, VSCode, and other integrations.
+This is a template repository for a Typescript NPM package. It contains Typescript, ESLint, Jest and VSCode integrations.
 
 ## Usage
 
@@ -8,7 +8,8 @@ This is a template repository for a Typescript NPM package. It contains Typescri
 2. Locally clone your new remote Github repository
 3. From the root directory of your new local clone, run `node setup.js`, entering in some details.
 4. After it completes, you can remove `setup.js` and this section of the README.
-5. have fun!
+5. For information on how to develop on your new codebase, see [./contributing/development.md](./contributing/development.md)
+6. Have fun!
 
 If you found this delightful, feel free to [buy me a coffee](https://www.buymeacoffee.com/samhuk) ✨
 
