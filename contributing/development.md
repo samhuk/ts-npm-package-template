@@ -18,9 +18,9 @@ ESLint is used for Typescript linting. To lint the Typescript code, run `npm run
 
 ## Building
 
-To build the Typescript code (excluding tests), run `npm run build-ts`.
+To build all of the Typescript code, run `npm run build-ts`.
 
-This produces the Javascript code that is published to npm.
+To build the Typescript code that is published to npm, run `npm run build-ts-dist`.
 
 ## Testing
 
@@ -54,3 +54,11 @@ Pull requests automatically run a CI pipeline that checks various criteria:
 * Integration tests
 
 These must pass for a pull request to be approved and merged.
+
+## NPM Publishing
+
+Run `npm run check` to check local validity of code.
+
+Run `npm run build-ts-dist` to build the Typescript code to produce the Javascript code that is published to npm.
+
+Run `npm publish` to publish to npm.
