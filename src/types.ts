@@ -1,11 +1,8 @@
 /**
- * Options for the creation of MyComponent
+ * This file defines all of the types that will be available in the public API
+ * of the package.
+ *
+ * E.g. `import { PackageNameOptions } from 'npm-package-name`
  */
-export type MyComponentOptions = {
-  initialFoo: string
-}
 
-export type MyComponent = {
-  foo: string
-  updateFoo: (newFoo: string) => string
-}
+export type { PackageName, PackageNameOptions } from './package-name/types'

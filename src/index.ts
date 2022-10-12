@@ -1,13 +1,9 @@
-/* This is the entrypoint ts file for the component.
+/**
+ * This file defines the public API of the package. Everything here will be available from
+ * the top-level package name when importing as an npm package.
+ *
+ * E.g. `import { createPackageName, PackageNameOptions } from 'npm-package-name`
  */
 
-import { MyComponentOptions, MyComponent } from './types'
-
-export const createMyComponent = (options: MyComponentOptions): MyComponent => {
-  let component: MyComponent
-
-  return component = {
-    foo: options.initialFoo,
-    updateFoo: newFoo => component.foo = newFoo,
-  }
-}
+export { createPackageName } from './package-name'
+export * from './types'
