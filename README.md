@@ -1,10 +1,26 @@
+# ts-npm-package-template
+
+This is a template repository for a Typescript NPM package. It contains Typescript, ESLint, Jest, VSCode, and other integrations.
+
+## Usage
+
+1. Click the "**Use Template**" button on Github to create your own repository from this template
+2. Locally clone your new remote Github repository
+3. From the root directory of your new local clone, run `node setup.js`, entering in some details.
+4. After it completes, you can remove `setup.js` and this section of the README.
+5. have fun!
+
+If you found this delightful, feel free to [buy me a coffee](https://www.buymeacoffee.com/samhuk) ✨
+
+---
+
 <h1 align="center">{{package-name}}</h1>
 <p align="center">
   <em>{{package-slogan}}</em>
 </p>
 
 <div style="color: #aaa" align="center"><em>
-Badges like license type, current build status, and npm package version info can go here. Uncomment the HTML below, within this README, to show them.
+Badges like license type, current build status, and npm package version info can go here. Uncomment the HTML below within this README to show them.
 </em></div>
 
 <!-- <p align="center">
@@ -19,7 +35,7 @@ Badges like license type, current build status, and npm package version info can
   </a>
 </p> -->
 
-## Introduction
+## Overview
 
 <div style="color: #aaa"><em>
   <p>Provide a quick overview of what your package does.</p>

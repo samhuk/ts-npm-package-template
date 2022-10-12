@@ -52,6 +52,5 @@ Pull requests automatically run a CI pipeline that checks various criteria:
 * Typescript build
 * Unit tests
 * Integration tests
-* Unit test code coverage (provided by codecov)
 
 These must pass for a pull request to be approved and merged.
