@@ -1,11 +1,3 @@
-/**
- * Options for the creation of MyComponent
- */
-export type MyComponentOptions = {
-  initialFoo: string
-}
+// This file defines the top-level exported types of the package
 
-export type MyComponent = {
-  foo: string
-  updateFoo: (newFoo: string) => string
-}
+export type { PackageName, PackageNameOptions } from './package-name/types'
