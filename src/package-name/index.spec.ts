@@ -5,7 +5,7 @@ describe('package-name', () => {
     const fn = createPackageName
 
     test('basic test', () => {
-      expect(fn({ a: 1, b: 2 })).toEqual(3)
+      expect(fn({ a: 1, b: 2 })).toEqual({ sum: 3 })
     })
   })
 })
