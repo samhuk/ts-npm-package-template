@@ -11,7 +11,7 @@ This is a template repository for a Typescript NPM package. It contains Typescri
 5. For information on how to develop on your new codebase, see [./contributing/development.md](./contributing/development.md)
 6. Have fun!
 
-This template is approximately based off of [ts-pg-orm](https://github.com/samhuk/ts-pg-orm). Therefore, feel free to take a look there to see how this template can be expanded upon.
+This template is approximately based off of a mixture of [ts-npm-package-template](https://github.com/samhuk/ts-npm-package-template) and [tree-starter](https://github.com/samhuk/tree-starter). Therefore, feel free to take a look at those to see how this template can be expanded upon.
 
 If you found this delightful, feel free to [buy me a coffee](https://www.buymeacoffee.com/samhuk) ✨
 
