@@ -44,7 +44,10 @@
     "check": "npm rum lint-errors-only && npm run build-ts && npm run tests && echo Done!"
   },
   "repository": "https://github.com/{{github-user-name}}/{{package-name}}",
-  "author": "",
+  "author": {
+    "email": "{{license-email}}",
+    "name": "{{license-name}}"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -58,13 +61,11 @@
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "babel-jest": "^29.1.2",
-    "concurrently": "^7.4.0",
     "env-cmd": "^10.1.0",
     "eslint": "^8.25.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-react": "^7.31.9",
     "jest": "^29.1.2",
     "rimraf": "^3.0.2",
     "ts-jest": "^29.0.3",

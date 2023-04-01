@@ -13,7 +13,13 @@ This is a template repository for a Typescript NPM package. It contains Typescri
 
 This template is approximately based off of [ts-pg-orm](https://github.com/samhuk/ts-pg-orm). Therefore, feel free to take a look at that to see how this template can be expanded upon.
 
-If you found this delightful, feel free to [buy me a coffee](https://www.buymeacoffee.com/samhuk) ✨
+If you found this delightful, feel free to [sponsor me on GitHub](https://github.com/sponsors/samhuk) 💕 or [buy me a coffee](https://www.buymeacoffee.com/samhuk) ☕
+
+### Side-Note About Integration Test Configuration
+Integration test configuration exists for this template. These are sometimes, but not always, necessary. If your package will not need them, then do the following:
+* Remove the scripts related to integration tests from `package.json`.
+* Remove the `integration-tests` environment configuration from `.env-cmdrc.json`.
+* Remove the integration test content from `contributing/development.md`.
 
 ---
 
@@ -58,6 +64,4 @@ See [./contributing/development.md](./contributing/development.md)
 
 > If desired, briefly mention any donation links here. Here's Buy Me a Coffee as an example:
 
-If you found this package delightful, feel free to buy me a coffee ✨
-
-<a href="https://www.buymeacoffee.com/{{buy-me-a-coffee-user-name}}" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+If you found this package delightful, feel free to [buy me a coffee](https://www.buymeacoffee.com/{{buy-me-a-coffee-user-name}}) ✨
