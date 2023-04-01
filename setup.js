@@ -77,7 +77,7 @@ const _replaceTokensInFiles = (filePaths, tokenMapEntries, i, onComplete) => {
   const fileText = fs.readFileSync(filePath, 'utf8')
   let newFileText = fileText
   tokenMapEntries.forEach(tokenMapEntry => {
-    newFileText = newFileText.replace(tokenMapEntry[0], tokenMapEntry[1])
+    newFileText = newFileText.replace(new RegExp(tokenMapEntry[0], 'g'), tokenMapEntry[1])
   })
   fs.writeFileSync(filePath, newFileText)
 
