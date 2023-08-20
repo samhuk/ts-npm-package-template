@@ -6,24 +6,15 @@ This is a template repository for a Typescript NPM package. It contains Typescri
 
 1. Click the "**Use Template**" button on Github to create your own repository from this template
 2. Locally clone your new remote Github repository
-3. From the root directory of your new local clone, run `node setup.js`, entering in some details.
-4. After it completes, you can remove `setup.js` and this section of the README.
-5. For information on how to develop on your new codebase, see [./contributing/development.md](./contributing/development.md)
-6. Have fun!
-
-This template is approximately based off of [ts-pg-orm](https://github.com/samhuk/ts-pg-orm). Therefore, feel free to take a look at that to see how this template can be expanded upon.
+3. Run `node setup.js` within the repository directory, entering in some details.
 
 If you found this delightful, feel free to [sponsor me on GitHub](https://github.com/sponsors/samhuk) 💕 or [buy me a coffee](https://www.buymeacoffee.com/samhuk) ☕
 
-### Side-Note About Integration Test Configuration
-Integration test configuration exists for this template. These are sometimes, but not always, necessary. If your package will not need them, then do the following:
-* Remove the scripts related to integration tests from `package.json`.
-* Remove the `integration-tests` environment configuration from `.env-cmdrc.json`.
-* Remove the integration test content from `contributing/development.md`.
+**Note:** This template is approximately based off of [verba](https://github.com/samhuk/verba). Feel free to take a look at that to see how this template can be expanded upon.
 
 ---
 
-<h1 align="center">{{package-name}}</h1>
+<h1 align="center">{{repo-name}}</h1>
 <p align="center">
   <em>{{package-slogan}}</em>
 </p>
@@ -31,8 +22,8 @@ Integration test configuration exists for this template. These are sometimes, bu
 > Badges like license type, current build status, and npm package version info can go here. Uncomment the HTML below within this README to show them.
 
 <!-- <p align="center">
-  <a href="https://github.com/{{github-user-name}}/{{package-name}}/actions/workflows/ci.yaml/badge.svg" target="_blank">
-    <img src="https://github.com/{{github-user-name}}/{{package-name}}/actions/workflows/ci.yaml/badge.svg" alt="ci status" />
+  <a href="https://github.com/{{github-user-name}}/{{repo-name}}/actions/workflows/ci.yaml/badge.svg" target="_blank">
+    <img src="https://github.com/{{github-user-name}}/{{repo-name}}/actions/workflows/ci.yaml/badge.svg" alt="ci status" />
   </a>
   <a href="https://img.shields.io/badge/License-MIT-green.svg" target="_blank">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license" />
