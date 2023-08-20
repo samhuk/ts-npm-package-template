@@ -1,36 +1,41 @@
 {
-  "name": "verba",
-  "version": "2.5.0",
-  "description": "Node logging library",
+  "name": "{{npm-package-name}}",
+  "version": "0.0.1",
+  "description": "{{package-slogan}}",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
   "scripts": {
+    "---------------------- UNIT TESTS ------------------------------------------------------------------": "",
     "clean-unit-tests": "rimraf ./build-test",
     "build-unit-tests": "tsc -p ./tsconfig.unit-tests.json",
     "run-unit-tests": "jest",
     "unit-tests": "npm run clean-unit-tests && npm run build-unit-tests && npm run run-unit-tests",
+    "---------------------- LINT ------------------------------------------------------------------": "",
     "lint": "eslint -c .eslintrc.json ./src --ext .ts",
     "lint-errors-only": "eslint -c .eslintrc.json ./src --ext .ts --quiet",
+    "---------------------- TS DIST ------------------------------------------------------------------": "",
     "clean-ts-dist": "rimraf ./lib",
     "build-ts-dist": "npm run clean-ts-dist && tsc -p ./tsconfig.dist.json",
+    "---------------------- TS BUILD ------------------------------------------------------------------": "",
     "clean-ts": "rimraf ./build-ts",
     "build-ts": "npm run clean-ts && tsc -p ./tsconfig.all.json",
+    "---------------------- EXAMPLES ------------------------------------------------------------------": "",
     "clean-examples": "rimraf ./build-examples",
     "build-examples": "tsc -p ./tsconfig.examples.json",
     "run-example": "node ./build-examples/examples/index.js",
     "example": "npm run clean-examples && npm run build-examples && npm run run-example",
+    "---------------------- PUBLISHING / MISC. ------------------------------------------------------------------": "",
     "clean": "npm run clean-unit-tests && npm run clean-unit-tests && npm run clean-ts && npm run clean-ts-dist && npm run clean-examples",
     "check": "npm rum lint-errors-only && npm run build-ts && npm run unit-tests && npm run example && echo Done!",
     "check-and-dist": "npm run check && npm run build-ts-dist"
   },
-  "repository": "https://github.com/samhuk/verba",
+  "repository": "https://github.com/{{github-user-name}}/{{repo-name}}",
   "author": {
-    "email": "samhughes1701@hotmail.co.uk",
-    "name": "Sam Hughes",
-    "url": "https://linktr.ee/samhuk"
+    "email": "{{license-email}}",
+    "name": "{{license-name}}"
   },
   "license": "MIT",
   "publishConfig": {
