@@ -17,7 +17,7 @@ If you found this delightful, feel free to [sponsor me on GitHub](https://github
 
 ---
 
-<h1 align="center">{{package-name}}</h1>
+<h1 align="center">{{repo-name}}</h1>
 <p align="center">
   <em>{{package-slogan}}</em>
 </p>
@@ -25,8 +25,8 @@ If you found this delightful, feel free to [sponsor me on GitHub](https://github
 > Badges like license type, current build status, and npm package version info can go here. Uncomment the HTML below within this README to show them.
 
 <!-- <p align="center">
-  <a href="https://github.com/{{github-user-name}}/{{package-name}}/actions/workflows/ci.yaml/badge.svg" target="_blank">
-    <img src="https://github.com/{{github-user-name}}/{{package-name}}/actions/workflows/ci.yaml/badge.svg" alt="ci status" />
+  <a href="https://github.com/{{github-user-name}}/{{repo-name}}/actions/workflows/ci.yaml/badge.svg" target="_blank">
+    <img src="https://github.com/{{github-user-name}}/{{repo-name}}/actions/workflows/ci.yaml/badge.svg" alt="ci status" />
   </a>
   <a href="https://img.shields.io/badge/License-MIT-green.svg" target="_blank">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license" />
