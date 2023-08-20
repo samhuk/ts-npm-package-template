@@ -11,15 +11,9 @@ This is a template repository for a Typescript NPM package. It contains Typescri
 5. For information on how to develop on your new codebase, see [./contributing/development.md](./contributing/development.md)
 6. Have fun!
 
-This template is approximately based off of [ts-pg-orm](https://github.com/samhuk/ts-pg-orm). Therefore, feel free to take a look at that to see how this template can be expanded upon.
+This template is approximately based off of [verba](https://github.com/samhuk/verba). Therefore, feel free to take a look at that to see how this template can be expanded upon.
 
 If you found this delightful, feel free to [sponsor me on GitHub](https://github.com/sponsors/samhuk) 💕 or [buy me a coffee](https://www.buymeacoffee.com/samhuk) ☕
-
-### Side-Note About Integration Test Configuration
-Integration test configuration exists for this template. These are sometimes, but not always, necessary. If your package will not need them, then do the following:
-* Remove the scripts related to integration tests from `package.json`.
-* Remove the `integration-tests` environment configuration from `.env-cmdrc.json`.
-* Remove the integration test content from `contributing/development.md`.
 
 ---
 
